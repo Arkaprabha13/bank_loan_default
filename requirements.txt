@@ -1,7 +1,7 @@
-# Requires Python 3.8 to 3.10
+# Compatible with Python 3.11 and TensorFlow 2.15
 Flask==2.2.5
 pandas==1.5.3
-numpy==1.23.5
+numpy==1.23.5      # ✅ Compatible with TensorFlow
 scikit-learn==1.2.2
 joblib==1.2.0
-tensorflow-cpu==2.11.0
+tensorflow==2.15.0
